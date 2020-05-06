@@ -1,34 +1,14 @@
 {
   "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
     "name": "typicode"
-  },
-  "lista": [
-   {
-      "id": 1,
-      "titulo": "Compras",
-      "subtitulo": "Detalle de compras",
-      "descripcion": "Aqui va el contenido relacionado a las compras",
-      "color": "primary"
-   },
-   {
-      "id": 2,
-      "titulo": "Ventas",
-      "subtitulo": "Detalle de ventas",
-      "descripcion": "Aqui va el contenido relacionado a las ventas",
-      "color": "success"
-   },
-   {
-      "id": 3,
-      "titulo": "Proveedores",
-      "subtitulo": "Detalle de proveedores",
-      "descripcion": "Aqui va el contenido relacionado a proveedores",
-      "color": "info"
-   }
-]
+  }
 }
