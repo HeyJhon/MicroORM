@@ -10,5 +10,28 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "lista": [
+   {
+      "id": 1,
+      "titulo": "Compras",
+      "subtitulo": "Detalle de compras",
+      "descripcion": "Aqui va el contenido relacionado a las compras",
+      "color": "primary"
+   },
+   {
+      "id": 2,
+      "titulo": "Ventas",
+      "subtitulo": "Detalle de ventas",
+      "descripcion": "Aqui va el contenido relacionado a las ventas",
+      "color": "success"
+   },
+   {
+      "id": 3,
+      "titulo": "Proveedores",
+      "subtitulo": "Detalle de proveedores",
+      "descripcion": "Aqui va el contenido relacionado a proveedores",
+      "color": "info"
+   }
+]
 }
